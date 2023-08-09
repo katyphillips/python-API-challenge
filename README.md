@@ -1,1 +1,3 @@
-# python-API-challenge
+For this challenge, we tracked the weather data for over 500 randomly generated cities in WeatherPy.  To do so, we used openweathermap.org and performed an API request.  Once the data was collected, we used scatter and regression plots to look for correlation between latitude and the following variables:  maximum temperature, humidty, cloudiness, and wind speed.  The visuals for these plots are included in the output data folder in the repository.  While the first two sets of plots showed some correlation, the last two did not. 
+
+After the inital list of cities was generated, we first generated a map that displaying the location of each city in the data frame.  Then, we filtered the data according to our ideal weather conditions for a vacation.  We used this reduced list of cities to search for hotels within 10,000 meters of our city and generated a new data frame with those hotel names included.  
